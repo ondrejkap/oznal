@@ -34,6 +34,7 @@ pandocfilters==1.4.2
 parso==0.6.1
 pexpect==4.8.0
 pickleshare==0.7.5
+Pillow==7.0.0
 prometheus-client==0.7.1
 prompt-toolkit==3.0.3
 ptyprocess==0.6.0
@@ -57,4 +58,5 @@ traitlets==4.3.3
 wcwidth==0.1.8
 webencodings==0.5.1
 widgetsnbextension==3.5.1
+wordcloud==1.6.0
 zipp==3.0.0
