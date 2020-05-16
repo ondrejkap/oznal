@@ -23,17 +23,17 @@ class PorterTokenizer:
 def points2group(row):
     """Convert points to it's group according to WineMag"""
     if 80 <= row['points'] <= 82:
-        return '80-82 Classic The pinnacle of quality.'
+        return '80-82 Acceptable Can be employed in casual, less-critical circumstances.'
     if 83 <= row['points'] <= 86:
-        return '83-86 Superb A great achievement.'
+        return '83-86 Good Suitable for everyday consumption; often good value.'
     if 87 <= row['points'] <= 89:
-        return '87-89 Excellent Highly recommended.'
+        return '87-89 Very Good Often good value; well recommended.'
     if 90 <= row['points'] <= 93:
-        return '90-93 Very Good Often good value; well recommended.'
+        return '90-93 Excellent Highly recommended.'
     if 94 <= row['points'] <= 97:
-        return '94-97 Good Suitable for everyday consumption; often good value.'
+        return '94-97 Superb A great achievement.'
     if 98 <= row['points'] <= 100:
-        return '98-100'
+        return '98-100 Classic The pinnacle of quality.'
     return 'UNKNOWN'
 
 
